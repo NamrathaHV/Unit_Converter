@@ -1,3 +1,473 @@
 <resources>
-        <string name="app_name">Unit Converter</string>
+        <string name="app_name" translatable="false">Unit Converter</string>
+
+        <!--Bottom navigation view-->
+        <string name="string_main_bnv_quantities">Quantities</string>
+        <string name="string_main_bnv_favorites">Favorites</string>
+        <string name="string_main_bnv_more">More</string>
+
+        <!--Quantities fragment-->
+        <string name="string_quantities_list_length">Length/Distance</string>
+        <string name="string_quantities_list_area">Area</string>
+        <string name="string_quantities_list_weight">Weight</string>
+        <string name="string_quantities_list_volume">Volume</string>
+        <string name="string_quantities_list_temperature">Temperature</string>
+        <string name="string_quantities_list_time">Time</string>
+        <string name="string_quantities_list_speed">Speed</string>
+        <string name="string_quantities_list_digital">Digital</string>
+        <string name="string_quantities_list_age">Age</string>
+        <string name="string_quantities_list_binary">Binary</string>
+        <string name="string_quantities_list_angle">Angle</string>
+        <string name="string_quantities_list_pressure">Pressure</string>
+        <string name="string_quantities_list_voltage">Voltage</string>
+        <string name="string_quantities_list_current">Current</string>
+        <string name="string_quantities_list_power">Power</string>
+        <string name="string_quantities_list_flow">Flow</string>
+        <string name="string_quantities_list_frequency">Frequency</string>
+        <string name="string_quantities_list_illuminance">Illuminance</string>
+        <string name="string_quantities_list_energy">Energy</string>
+        <string name="string_quantities_list_storage">Storage</string>
+        <string name="string_quantities_list_force">Force</string>
+        <string name="string_quantities_list_sound">Sound</string>
+        <string name="string_quantities_list_resistance">Resistance</string>
+        <string name="string_quantities_list_luminance">Luminance</string>
+        <string name="string_quantities_list_capacitance">Capacitance</string>
+        <string name="string_quantities_list_surface_tension">Surface Tension</string>
+        <string name="string_quantities_list_density">Density</string>
+        <string name="string_quantities_list_torque">Torque</string>
+        <string name="string_quantities_list_currency">Currency</string>
+
+        <!--More fragment-->
+        <string name="string_more_settings_header">Settings</string>
+        <string name="string_more_support_header">Support</string>
+        <string name="string_more_about_header">About Us</string>
+        <string name="string_more_settings_language">Language</string>
+        <string name="string_more_settings_night">Night Mode</string>
+        <!--<string name="string_more_list_support_donate">Donate and Remove Ads</string>-->
+        <!--<string name="string_more_list_support_rate">Rate Us</string>-->
+        <string name="string_more_list_support_feedback">Feedback</string>
+        <!--<string name="string_more_list_support_invite">Invite Friends</string>-->
+        <string name="string_more_list_about_disclaimer">Disclaimer</string>
+        <string name="string_more_list_about_linkedin1">"Developer's Contact1"</string>
+        <string name="string_more_list_about_linkedin2">"Developer's Contact2"</string>
+        <!--<string name="string_more_list_about_telegram">"Developer's Telegram"</string>-->
+
+        <!--Communication-->
+        <string name="string_more_text_support_invite">"I\'m using the All-In-One Unit Converter app and thought you might like it too. Download it from here:\n\n"</string>
+        <string name="string_more_title_support_invite">Invite via…</string>
+        <string name="string_more_title_support_open">Open with…</string>
+        <string name="string_more_title_support_feedback">Send feedback via…</string>
+
+        <!--Language activity-->
+        <string name="string_language_title">Language</string>
+        <string name="string_language_header">Choose your language</string>
+        <string name="string_language_list_english">English</string>
+        <string name="string_language_list_kannada">Kannada</string>
+        <string name="string_language_list_hindi">Hindi</string>
+        <string name="string_language_list_korean">Korean</string>
+        <string name="string_language_list_japanese">Japanese</string>
+        <string name="string_language_list_urdu">Urdu</string>
+
+        <!--Disclaimer activity-->
+        <string name="string_disclaimer_title">Disclaimer</string>
+        <string name="string_disclaimer_header">Privacy Policy</string>
+        <string name="string_disclaimer_text">Unit Converter is a very simple and powerful utility application mainly useful for education and quickly conversion in daily life. We do not ask for or store any sort of private data of the users.\n\n<b>User Contents</b>\n
+        We do not store, supervise and do not claim ownership on any contents created by the application users. You acknowledge that clearing application data or uninstalling this application from your device or losing your device or device problem could result in loss of all data. You are responsible for backing up your data.\n\n<b>Liability</b>\n
+        We have gone to great lengths to ensure that all information in our applications and the promoting materials relating to it, is correct. However, we cannot be held responsible for potential errors and misinformation that our applications may still contain, nor for any potential damages or losses arising from relying on or applying the information from our applications.\n\n<b>Consent</b>\n
+        By using our applications, you consent to all of our privacy policies.\n\n<b>Contact us</b>\n
+        If there are any questions you may contact us using the information below.\n\n<b>Email:</b>\n <b>1rn18cs067.namratha.h.v@gmail.com</b>\n<b> 1rn18cs089.sahanasg@gmail.com</b>\n\n<b>Created on:</b><b>    July 26th 2021</b></string>
+
+        <!--Converter activity-->
+        <string name="string_converter_title_from">From:</string>
+        <string name="string_converter_title_to">To:</string>
+        <string name="string_converter_text_share">"Download the All-In-One Unit Converter app from here:\n\n"</string>
+        <string name="string_converter_title_share">Share via…</string>
+
+        <!--Favorites activity-->
+        <string name="string_favorites_title">Favorites</string>
+
+        <!--Units activity-->
+        <string name="string_units_title">Select Unit</string>
+        <string name="string_units_menu_search">Search</string>
+
+        <!--Length units-->
+        <string name="string_units_list_length_meter">Meter</string>
+        <string name="string_units_list_length_kilometer">Kilometer</string>
+        <string name="string_units_list_length_decimeter">Decimeter</string>
+        <string name="string_units_list_length_centimeter">Centimeter</string>
+        <string name="string_units_list_length_millimeter">Millimeter</string>
+        <string name="string_units_list_length_micrometer">Micrometer</string>
+        <string name="string_units_list_length_nanometer">Nanometer</string>
+        <string name="string_units_list_length_mile">Mile</string>
+        <string name="string_units_list_length_yard">Yard</string>
+        <string name="string_units_list_length_foot">Foot</string>
+        <string name="string_units_list_length_inch">Inch</string>
+        <string name="string_units_list_length_light_year">Light Year</string>
+        <string name="string_units_list_length_exameter">Exameter</string>
+        <string name="string_units_list_length_petameter">Petameter</string>
+        <string name="string_units_list_length_terameter">Terameter</string>
+        <string name="string_units_list_length_gigameter">Gigameter</string>
+        <string name="string_units_list_length_megameter">Megameter</string>
+        <string name="string_units_list_length_hectometer">Hectometer</string>
+        <string name="string_units_list_length_dekameter">Dekameter</string>
+        <string name="string_units_list_length_micron">Micron</string>
+        <string name="string_units_list_length_picometer">Picometer</string>
+        <string name="string_units_list_length_femtometer">Femtometer</string>
+        <string name="string_units_list_length_attometer">Attometer</string>
+        <string name="string_units_list_length_megaparsec">Megaparsec</string>
+        <string name="string_units_list_length_kiloparsec">Kiloparsec</string>
+        <string name="string_units_list_length_parsec">Parsec</string>
+        <string name="string_units_list_length_astronomical_unit">Astronomical Unit</string>
+        <string name="string_units_list_length_league">League</string>
+        <string name="string_units_list_length_nautical_league_uk">Nautical League (UK)</string>
+        <string name="string_units_list_length_nautical_league_int">Nautical League (Int.)</string>
+        <string name="string_units_list_length_league_statute">League (Statute)</string>
+        <string name="string_units_list_length_nautical_mile_uk">Nautical Mile (UK)</string>
+        <string name="string_units_list_length_nautical_mile_international">Nautical Mile (International)</string>
+        <string name="string_units_list_length_mile_statute">Mile (Statute)</string>
+        <string name="string_units_list_length_mile_us_survey">Mile (US Survey)</string>
+        <string name="string_units_list_length_mile_roman">Mile (Roman)</string>
+        <string name="string_units_list_length_kiloyard">Kiloyard</string>
+        <string name="string_units_list_length_furlong">Furlong</string>
+        <string name="string_units_list_length_furlong_us_survey">Furlong (US Survey)</string>
+        <string name="string_units_list_length_chain_us_survey">Chain (US Survey)</string>
+        <string name="string_units_list_length_rope">Rope</string>
+        <string name="string_units_list_length_rod">Rod</string>
+        <string name="string_units_list_length_rod_us_survey">Rod (US Survey)</string>
+        <string name="string_units_list_length_perch">Perch</string>
+        <string name="string_units_list_length_pole">Pole</string>
+        <string name="string_units_list_length_fathom">Fathom</string>
+        <string name="string_units_list_length_fathom_us_survey">Fathom (US Survey)</string>
+        <string name="string_units_list_length_ell">Ell</string>
+        <string name="string_units_list_length_foot_us_survey">Foot (US Survey)</string>
+        <string name="string_units_list_length_link">Link</string>
+        <string name="string_units_list_length_link_us_survey">Link (US Survey)</string>
+        <string name="string_units_list_length_cubit_uk">Cubit (UK)</string>
+        <string name="string_units_list_length_hand">Hand</string>
+        <string name="string_units_list_length_span_cloth">Span (Cloth)</string>
+        <string name="string_units_list_length_finger_cloth">Finger (Cloth)</string>
+        <string name="string_units_list_length_nail_cloth">Nail (Cloth)</string>
+        <string name="string_units_list_length_inch_us_survey">Inch (US Survey)</string>
+        <string name="string_units_list_length_barleycorn">Barleycorn</string>
+        <string name="string_units_list_length_mil">Mil</string>
+        <string name="string_units_list_length_microinch">Microinch</string>
+        <string name="string_units_list_length_angstrom">Angstrom</string>
+        <string name="string_units_list_length_au_of_length">A.u. Of Length</string>
+        <string name="string_units_list_length_x_unit">X-Unit</string>
+        <string name="string_units_list_length_fermi">Fermi</string>
+        <string name="string_units_list_length_arpent">Arpent</string>
+        <string name="string_units_list_length_pica">Pica</string>
+        <string name="string_units_list_length_point">Point</string>
+        <string name="string_units_list_length_twip">Twip</string>
+        <string name="string_units_list_length_aln">Aln</string>
+        <string name="string_units_list_length_famn">Famn</string>
+        <string name="string_units_list_length_caliber">Caliber</string>
+        <string name="string_units_list_length_centiinch">Centiinch</string>
+        <string name="string_units_list_length_ken">Ken</string>
+        <string name="string_units_list_length_russian_archin">Russian Archin</string>
+        <string name="string_units_list_length_roman_actus">Roman Actus</string>
+        <string name="string_units_list_length_vara_de_tarea">Vara De Tarea</string>
+        <string name="string_units_list_length_vara_conuquera">Vara Conuquera</string>
+        <string name="string_units_list_length_vara_castellana">Vara Castellana</string>
+        <string name="string_units_list_length_cubit_greek">Cubit (Greek)</string>
+        <string name="string_units_list_length_long_reed">Long Reed</string>
+        <string name="string_units_list_length_reed">Reed</string>
+        <string name="string_units_list_length_long_cubit">Long Cubit</string>
+        <string name="string_units_list_length_handbreadth">Handbreadth</string>
+        <string name="string_units_list_length_fingerbreadth">Fingerbreadth</string>
+        <string name="string_units_list_length_planck_length">Planck Length</string>
+        <string name="string_units_list_length_electron_radius_classical">Electron Radius (Classical)</string>
+        <string name="string_units_list_length_bohr_radius">Bohr Radius</string>
+        <string name="string_units_list_length_earth_s_equatorial_radius">Earth\'s Equatorial Radius</string>
+        <string name="string_units_list_length_earth_s_polar_radius">Earth\'s Polar Radius</string>
+        <string name="string_units_list_length_earth_s_distance_from_sun">Earth\'s Distance From Sun</string>
+        <string name="string_units_list_length_sun_s_radius">Sun\'s Radius</string>
+
+        <!--Area units-->
+        <string name="string_units_list_area_square_meter">Square Meter</string>
+        <string name="string_units_list_area_square_kilometer">Square Kilometer</string>
+        <string name="string_units_list_area_square_centimeter">Square Centimeter</string>
+        <string name="string_units_list_area_square_millimeter">Square Millimeter</string>
+        <string name="string_units_list_area_square_micrometer">Square Micrometer</string>
+        <string name="string_units_list_area_hectare">Hectare</string>
+        <string name="string_units_list_area_acre">Acre</string>
+        <string name="string_units_list_area_square_mile">Square Mile</string>
+        <string name="string_units_list_area_square_yard">Square Yard</string>
+        <string name="string_units_list_area_square_foot">Square Foot</string>
+        <string name="string_units_list_area_square_inch">Square Inch</string>
+        <string name="string_units_list_area_square_hectometer">Square Hectometer</string>
+        <string name="string_units_list_area_square_dekameter">Square Dekameter</string>
+        <string name="string_units_list_area_square_decimeter">Square Decimeter</string>
+        <string name="string_units_list_area_square_nanometer">Square Nanometer</string>
+        <string name="string_units_list_area_are">Are</string>
+        <string name="string_units_list_area_barn">Barn</string>
+        <string name="string_units_list_area_square_mile_us_survey">Square Mile (US Survey)</string>
+        <string name="string_units_list_area_square_foot_us_survey">Square Foot (US Survey)</string>
+        <string name="string_units_list_area_circular_inch">Circular Inch</string>
+        <string name="string_units_list_area_township">Township</string>
+        <string name="string_units_list_area_section">Section</string>
+        <string name="string_units_list_area_acre_us_survey">Acre (US Survey)</string>
+        <string name="string_units_list_area_rood">Rood</string>
+        <string name="string_units_list_area_square_chain">Square Chain</string>
+        <string name="string_units_list_area_square_rod">Square Rod</string>
+        <string name="string_units_list_area_square_rod_us_survey">Square Rod (US Survey)</string>
+        <string name="string_units_list_area_square_perch">Square Perch</string>
+        <string name="string_units_list_area_square_pole">Square Pole</string>
+        <string name="string_units_list_area_square_mil">Square Mil</string>
+        <string name="string_units_list_area_circular_mil">Circular Mil</string>
+        <string name="string_units_list_area_homestead">Homestead</string>
+        <string name="string_units_list_area_sabin">Sabin</string>
+        <string name="string_units_list_area_arpent">Arpent</string>
+        <string name="string_units_list_area_cuerda">Cuerda</string>
+        <string name="string_units_list_area_plaza">Plaza</string>
+        <string name="string_units_list_area_varas_castellanas_cuad">Varas Castellanas Cuad</string>
+        <string name="string_units_list_area_varas_conuqueras_cuad">Varas Conuqueras Cuad</string>
+        <string name="string_units_list_area_electron_cross_section">Electron Cross Section</string>
+
+        <!--Weight units-->
+        <string name="string_units_list_weight_kilogram">Kilogram</string>
+        <string name="string_units_list_weight_gram">Gram</string>
+        <string name="string_units_list_weight_milligram">Milligram</string>
+        <string name="string_units_list_weight_ton_metric">Ton (Metric)</string>
+        <string name="string_units_list_weight_pound">Pound</string>
+        <string name="string_units_list_weight_ounce">Ounce</string>
+        <string name="string_units_list_weight_carat">Carat</string>
+        <string name="string_units_list_weight_ton_short">Ton (Short)</string>
+        <string name="string_units_list_weight_ton_long">Ton (Long)</string>
+        <string name="string_units_list_weight_atomic_mass_unit">Atomic Mass Unit</string>
+        <string name="string_units_list_weight_exagram">Exagram</string>
+        <string name="string_units_list_weight_petagram">Petagram</string>
+        <string name="string_units_list_weight_teragram">Teragram</string>
+        <string name="string_units_list_weight_gigagram">Gigagram</string>
+        <string name="string_units_list_weight_megagram">Megagram</string>
+        <string name="string_units_list_weight_hectogram">Hectogram</string>
+        <string name="string_units_list_weight_dekagram">Dekagram</string>
+        <string name="string_units_list_weight_decigram">Decigram</string>
+        <string name="string_units_list_weight_centigram">Centigram</string>
+        <string name="string_units_list_weight_microgram">Microgram</string>
+        <string name="string_units_list_weight_nanogram">Nanogram</string>
+        <string name="string_units_list_weight_picogram">Picogram</string>
+        <string name="string_units_list_weight_femtogram">Femtogram</string>
+        <string name="string_units_list_weight_attogram">Attogram</string>
+        <string name="string_units_list_weight_dalton">Dalton</string>
+        <string name="string_units_list_weight_kilogram_force_square_second_meter">Kilogram-Force Square Second/Meter</string>
+        <string name="string_units_list_weight_kilopound">Kilopound</string>
+        <string name="string_units_list_weight_slug">Slug</string>
+        <string name="string_units_list_weight_pound_force_square_second_foot">Pound-Force Square Second/Foot</string>
+        <string name="string_units_list_weight_pound_troy_or_apothecary">Pound (Troy Or Apothecary)</string>
+        <string name="string_units_list_weight_poundal">Poundal</string>
+        <string name="string_units_list_weight_ton_assay_us">Ton (Assay) (US)</string>
+        <string name="string_units_list_weight_ton_assay_uk">Ton (Assay) (UK)</string>
+        <string name="string_units_list_weight_kiloton_metric">Kiloton (Metric)</string>
+        <string name="string_units_list_weight_quintal_metric">Quintal (Metric)</string>
+        <string name="string_units_list_weight_hundredweight_us">Hundredweight (US)</string>
+        <string name="string_units_list_weight_hundredweight_uk">Hundredweight (UK)</string>
+        <string name="string_units_list_weight_quarter_us">Quarter (US)</string>
+        <string name="string_units_list_weight_quarter_uk">Quarter (UK)</string>
+        <string name="string_units_list_weight_stone_us">Stone (US)</string>
+        <string name="string_units_list_weight_stone_uk">Stone (UK)</string>
+        <string name="string_units_list_weight_tonne">Tonne</string>
+        <string name="string_units_list_weight_pennyweight">Pennyweight</string>
+        <string name="string_units_list_weight_scruple_apothecary">Scruple (Apothecary)</string>
+        <string name="string_units_list_weight_grain">Grain</string>
+        <string name="string_units_list_weight_gamma">Gamma</string>
+        <string name="string_units_list_weight_talent_biblical_hebrew">Talent (Biblical Hebrew)</string>
+        <string name="string_units_list_weight_mina_biblical_hebrew">Mina (Biblical Hebrew)</string>
+        <string name="string_units_list_weight_shekel_biblical_hebrew">Shekel (Biblical Hebrew)</string>
+        <string name="string_units_list_weight_bekan_biblical_hebrew">Bekan (Biblical Hebrew)</string>
+        <string name="string_units_list_weight_gerah_biblical_hebrew">Gerah (Biblical Hebrew)</string>
+        <string name="string_units_list_weight_talent_biblical_greek">Talent (Biblical Greek)</string>
+        <string name="string_units_list_weight_mina_biblical_greek">Mina (Biblical Greek)</string>
+        <string name="string_units_list_weight_tetradrachma_biblical_greek">Tetradrachma (Biblical Greek)</string>
+        <string name="string_units_list_weight_didrachma_biblical_greek">Didrachma (Biblical Greek)</string>
+        <string name="string_units_list_weight_drachma_biblical_greek">Drachma (Biblical Greek)</string>
+        <string name="string_units_list_weight_denarius_biblical_roman">Denarius (Biblical Roman)</string>
+        <string name="string_units_list_weight_assarion_biblical_roman">Assarion (Biblical Roman)</string>
+        <string name="string_units_list_weight_quadrans_biblical_roman">Quadrans (Biblical Roman)</string>
+        <string name="string_units_list_weight_lepton_biblical_roman">Lepton (Biblical Roman)</string>
+        <string name="string_units_list_weight_planck_mass">Planck Mass</string>
+        <string name="string_units_list_weight_electron_mass_rest">Electron Mass (Rest)</string>
+        <string name="string_units_list_weight_muon_mass">Muon Mass</string>
+        <string name="string_units_list_weight_proton_mass">Proton Mass</string>
+        <string name="string_units_list_weight_neutron_mass">Neutron Mass</string>
+        <string name="string_units_list_weight_deuteron_mass">Deuteron Mass</string>
+        <string name="string_units_list_weight_earth_s_mass">Earth\'s Mass</string>
+        <string name="string_units_list_weight_sun_s_mass">Sun\'s Mass</string>
+
+        <!--Temperature units-->
+        <string name="string_units_list_temperature_celsius">Celsius</string>
+        <string name="string_units_list_temperature_fahrenheit">Fahrenheit</string>
+        <string name="string_units_list_temperature_kelvin">Kelvin</string>
+        <string name="string_units_list_temperature_rankine">Rankine</string>
+        <string name="string_units_list_temperature_newton">Newton</string>
+        <string name="string_units_list_temperature_reaumur">Réaumur</string>
+        <string name="string_units_list_temperature_romer">Rømer</string>
+        <string name="string_units_list_temperature_delisle">Delisle</string>
+
+
+
+
+        <!--Time Units-->
+        <string name="string_units_list_time_year">Year</string>
+        <string name="string_units_list_time_month">Month</string>
+        <string name="string_units_list_time_week">Week</string>
+        <string name="string_units_list_time_day">Day</string>
+        <string name="string_units_list_time_hour">Hour</string>
+        <string name="string_units_list_time_minute">Minute</string>
+        <string name="string_units_list_time_second">Second</string>
+        <string name="string_units_list_time_millisecond">MilliSecond</string>
+        <string name="string_units_list_time_nanosecond">NanoSecond</string>
+
+        <!--Speed Units-->
+        <string name="string_units_list_speed_kilometerperhour">Kilometer/Hour</string>
+        <string name="string_units_list_speed_mileperhour">Mile/Hour</string>
+        <string name="string_units_list_speed_meterpersecond">Meter/Second</string>
+        <string name="string_units_list_speed_footpersecond">Foot/Second</string>
+        <string name="string_units_list_speed_knot">Knot</string>
+
+        <!--Pressure Units-->
+        <string name="string_units_list_pressure_megapascal">Megapascal</string>
+        <string name="string_units_list_pressure_kilopascal">Kilopascal</string>
+        <string name="string_units_list_pressure_pascal">Pascal</string>
+        <string name="string_units_list_pressure_bar">Bar</string>
+        <string name="string_units_list_pressure_psi">PSI</string>
+        <string name="string_units_list_pressure_psf">PSF</string>
+        <string name="string_units_list_pressure_atmosphere">Atmosphere</string>
+        <string name="string_units_list_pressure_technicalatm">Technical Atm</string>
+        <string name="string_units_list_pressure_mmhg">mm Hg</string>
+        <string name="string_units_list_pressure_torr">Torr</string>
+
+        <!--Power units-->
+        <string name="string_units_list_power_watt">Watt</string>
+        <string name="string_units_list_power_kilowatt">Kilowatt</string>
+        <string name="string_units_list_power_megawatt">Megawatt</string>
+        <string name="string_units_list_power_hpmetric">HP (metric)</string>
+        <string name="string_units_list_power_hpmechanical">HP (mechanical)</string>
+        <string name="string_units_list_power_ftlbfpersecond">ft-lbf/second</string>
+        <string name="string_units_list_power_caloriepersecond">Calorie/second</string>
+        <string name="string_units_list_power_btupersecond">BTU/second</string>
+        <string name="string_units_list_power_kva">kV-A</string>
+
+
+        <!--Storage units-->
+        <string name="string_units_list_storage_bit">Bit</string>
+        <string name="string_units_list_storage_byte">Byte</string>
+        <string name="string_units_list_storage_kilobit">Kilobit</string>
+        <string name="string_units_list_storage_kilobyte"> Kilobyte</string>
+        <string name="string_units_list_storage_megabit">Megabit</string>
+        <string name="string_units_list_storage_megabyte">Megabyte</string>
+        <string name="string_units_list_storage_gigabit">Gigabit</string>
+        <string name="string_units_list_storage_gigabyte">Gigabyte</string>
+        <string name="string_units_list_storage_terabit">Terabit</string>
+        <string name="string_units_list_storage_terabyte">Terabyte</string>
+
+
+        <!--Energy units-->
+        <string name="string_units_list_energy_joule">Joule</string>
+        <string name="string_units_list_energy_kilojoule">Kilojoule</string>
+        <string name="string_units_list_energy_calorie">Calorie</string>
+        <string name="string_units_list_energy_kilocalorie">Kilocalorie</string>
+        <string name="string_units_list_energy_btu">BTU</string>
+        <string name="string_units_list_energy_ftlbf">ft-lbf</string>
+        <string name="string_units_list_energy_inlbf">in-lbf</string>
+        <string name="string_units_list_energy_kilowatthour">Kilowatt-Hour</string>
+
+
+        <!--Angle units-->
+        <string name="string_units_list_angle_radian">Radian</string>
+        <string name="string_units_list_angle_second">Second</string>
+        <string name="string_units_list_angle_minute">Minute</string>
+        <string name="string_units_list_angle_degree">Degree</string>
+        <string name="string_units_list_angle_gradian">Gradian</string>
+        <string name="string_units_list_angle_percentslope">Percent-Slope</string>
+        <string name="string_units_list_angle_circle">Circle</string>
+        <string name="string_units_list_angle_mil">Mil</string>
+
+
+        <!--Illuminance units-->
+        <string name="string_units_list_illuminance_lux">Lux</string>
+        <string name="string_units_list_illuminance_lumepermtsq">Lumen/Squaremeter</string>
+        <string name="string_units_list_illuminance_metercandle">Meter/Candle</string>
+        <string name="string_units_list_illuminance_lumenperftsq">Lumen/Squarefeet</string>
+        <string name="string_units_list_illuminance_footcandle">Foot-Candle</string>
+        <string name="string_units_list_illuminance_lumenpercmsq">Lumen/Squarecentimeter</string>
+        <string name="string_units_list_illuminance_phot">Phot</string>
+        <string name="string_units_list_illuminance_microwattpercmsq">MicroWatt/Squarecentimeter</string>
+
+        <!--Volume units-->
+        <string name="string_units_list_volume_millilitre">Millilitre(cc)</string>
+        <string name="string_units_list_volume_decilitre">Decilitre</string>
+        <string name="string_units_list_volume_litre">Litre</string>
+        <string name="string_units_list_volume_cubicmillimeter">Cubic Millimeter</string>
+        <string name="string_units_list_volume_cubiccentimeter">Cubic Centimeter</string>
+        <string name="string_units_list_volume_cubicdecimeter">Cubic Decimeter</string>
+        <string name="string_units_list_volume_cubicmeter">Cubic Meter</string>
+        <string name="string_units_list_volume_cubicinch">Cubic Inch</string>
+        <string name="string_units_list_volume_cubicfeet">Cubic Feet</string>
+        <string name="string_units_list_volume_cubicyard">Cubic Yard</string>
+        <string name="string_units_list_volume_gallon">Gallon(US)</string>
+        <string name="string_units_list_volume_pints">Pints(US)</string>
+        <string name="string_units_list_volume_brass">Brass</string>
+
+
+        <!--Current Units-->
+        <string name="string_units_list_current_ampere">Ampere</string>
+        <string name="string_units_list_current_kiloampere">Kiloampere</string>
+        <string name="string_units_list_current_milliampere">Milliampere</string>
+        <string name="string_units_list_current_biot"> Biot</string>
+        <string name="string_units_list_current_abampere">Abampere</string>
+        <string name="string_units_list_current_emuofcurrent">EMU of current</string>
+        <string name="string_units_list_current_statampere">Statampere</string>
+        <string name="string_units_list_current_esuofcurrent">ESU of current</string>
+        <string name="string_units_list_current_cgsemunit">CGS e.m. unit</string>
+        <string name="string_units_list_current_cgsesunit">CGS e.s. unit</string>
+
+        <!--Torque units-->
+                <!--International Standard- S.I-->
+        <string name="string_units_list_torque_newton_meter">Newton Meter</string>
+        <string name="string_units_list_torque_milli_newton_meter">Milli Newton Meter</string>
+        <string name="string_units_list_torque_centi_newton_meter">Centi Newton Meter</string>
+        <string name="string_units_list_torque_kilo_newton_meter">Kilo Newton Meter</string>
+        <string name="string_units_list_torque_mega_newton_meter">Mega Newton Meter</string>
+        <string name="string_units_list_torque_micro_newton_meter">Micro Newton Meter</string>
+        <string name="string_units_list_torque_newton_millimeter">Newton Millimeter</string>
+        <string name="string_units_list_torque_newton_centimeter">Newton CentiMeter</string>
+        <string name="string_units_list_torque_dyne_meter">Dyne Meter</string>
+        <string name="string_units_list_torque_dyne_centimeter">Dyne Centimeter</string>
+        <string name="string_units_list_torque_dyne_millimeter">Dyne Millimeter</string>
+        <string name="string_units_list_torque_kilo_pound_meter">Kilo Pound Meter</string>
+        <string name="string_units_list_torque_gram_centimeter">Gram Centimeter</string>
+        <string name="string_units_list_torque_gram_millimeter">Gram Millimeter</string>
+        <string name="string_units_list_torque_gram_meter">Gram meter</string>
+        <string name="string_units_list_torque_kilogram_centimeter">Kilogram Centimeter</string>
+        <string name="string_units_list_torque_kilogram_millimeter">Kilogram Millimeter</string>
+        <string name="string_units_list_torque_kilogram_meter">Kilogram Meter</string>
+                <!--Metric-->
+        <string name="string_units_list_torque_kilogram_force_meter">Kilogram-Force Meter</string>
+        <string name="string_units_list_torque_gram_force_meter">Gram-Force Meter</string>
+        <string name="string_units_list_torque_kilogram_force_centimeter">Kilogram-Force Centimeter</string>
+        <string name="string_units_list_torque_gram_force_centimeter">Gram-Force Centimeter</string>
+                <!--American-->
+        <string name="string_units_list_torque_pound_force_foot">Pound-Force Foot</string>
+        <string name="string_units_list_torque_pound_force_inch">Pound-Force Inch</string>
+        <string name="string_units_list_torque_ounce_force_inch">Ounce-Force Inch</string>
+        <string name="string_units_list_torque_ounce_force_foot">Ounce-Force foot</string>
+
+        <!--currency-->
+        <string name="string_units_list_currency_australian_dollar">Australian Dollar($)</string>
+        <string name="string_units_list_currency_brazilian_real">Brazilian real(R$)</string>
+        <string name="string_units_list_currency_british_pound">British pound(£)</string>
+        <string name="string_units_list_currency_chinese_yuan">Chinese yuan(¥)</string>
+        <string name="string_units_list_currency_egyptian_pound">Egyptian pound(£)</string>
+        <string name="string_units_list_currency_euro">	Euro(€)</string>
+        <string name="string_units_list_currency_indian_rupee">Indian rupee(₹)</string>
+        <string name="string_units_list_currency_japanese_yen">Japanese yen(¥)</string>
+        <string name="string_units_list_currency_philippine_peso">Philippine peso(₱)</string>
+        <string name="string_units_list_currency_russian_ruble">Russian ruble(₽)</string>
+        <string name="string_units_list_currency_south_korean_won">South Korean won(₩)</string>
+        <string name="string_units_list_currency_saudi_riyal">Saudi riyal(﷼)</string>
+        <string name="string_units_list_currency_thai_baht">Thai baht(฿)</string>
+        <string name="string_units_list_currency_united_states_dollar">United States dollar($)</string>
+
+
 </resources>

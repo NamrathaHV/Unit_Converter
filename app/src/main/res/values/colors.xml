@@ -7,4 +7,14 @@
         <color name="teal_700">#FF018786</color>
         <color name="black">#FF000000</color>
         <color name="white">#FFFFFFFF</color>
+
+        //AppTheme styles colors
+        <color name="colorPrimary">#f5f5f5</color>
+        <color name="colorPrimaryDark">#e0e0e0</color>
+        <color name="colorAccent">#001a33</color>
+        <color name="colorTitleLine">#d1d1d1</color>
+        <color name="colorConverterUnit">#e0e0e0</color>
+        <color name="backgroundColor">#E6F3FF</color>
+        <color name="textColor">#FFFFFF</color>
+        <color name="bottomNavColor">#001a33</color>
 </resources>
