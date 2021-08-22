@@ -57,7 +57,7 @@ public class MoreAdapter extends RecyclerView.Adapter<MoreAdapter.ViewHolder> {
             switch (item.getId()) {
 
                 case "support_feedback":
-                    String EMAIL = "1rn18cs089.sahanasg@gmail.com";
+                    String EMAIL = "1rn18cs067.namratha.h.v@gmail.com";
                     String[] emailAddress = {EMAIL};
                     Intent supportFeedback = new Intent(Intent.ACTION_SENDTO);
                     supportFeedback.setData(Uri.parse("mailto:"));
