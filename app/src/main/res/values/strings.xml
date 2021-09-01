@@ -435,7 +435,6 @@
         <string name="string_units_list_torque_dyne_meter">Dyne Meter</string>
         <string name="string_units_list_torque_dyne_centimeter">Dyne Centimeter</string>
         <string name="string_units_list_torque_dyne_millimeter">Dyne Millimeter</string>
-        <string name="string_units_list_torque_kilo_pound_meter">Kilo Pound Meter</string>
         <string name="string_units_list_torque_gram_centimeter">Gram Centimeter</string>
         <string name="string_units_list_torque_gram_millimeter">Gram Millimeter</string>
         <string name="string_units_list_torque_gram_meter">Gram meter</string>

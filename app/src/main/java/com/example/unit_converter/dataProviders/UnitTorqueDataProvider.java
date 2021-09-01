@@ -24,7 +24,6 @@ public class UnitTorqueDataProvider {
         addItem(new DataItemUnits("unit_torque_dyne_meter", R.string.string_units_list_torque_dyne_meter, "[ dyn.m ]", "quantities_torque", "ic_quantities_torque.png"));
         addItem(new DataItemUnits("unit_torque_dyne_centimeter", R.string.string_units_list_torque_dyne_centimeter, "[ dyn.cm ]", "quantities_torque", "ic_quantities_torque.png"));
         addItem(new DataItemUnits("unit_torque_dyne_millimeter", R.string.string_units_list_torque_dyne_millimeter, "[ dyn.mm ]", "quantities_torque", "ic_quantities_torque.png"));
-        addItem(new DataItemUnits("unit_torque_kilo_pound_meter", R.string.string_units_list_torque_kilo_pound_meter, "[ klb.m ]", "quantities_torque", "ic_quantities_torque.png"));
         addItem(new DataItemUnits("unit_torque_gram_centimeter", R.string.string_units_list_torque_gram_centimeter, "[ g.cm ]", "quantities_torque", "ic_quantities_torque.png"));
         addItem(new DataItemUnits("unit_torque_gram_millimeter", R.string.string_units_list_torque_gram_millimeter, "[ g.mm ]", "quantities_torque", "ic_quantities_torque.png"));
         addItem(new DataItemUnits("unit_torque_gram_meter", R.string.string_units_list_torque_gram_meter, "[ g.m) ]", "quantities_torque", "ic_quantities_torque.png"));
