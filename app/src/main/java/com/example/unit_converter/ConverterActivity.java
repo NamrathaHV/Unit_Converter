@@ -16,14 +16,19 @@ import  com.example.unit_converter.converters.AreaConverter;
 import com.example.unit_converter.converters.CurrencyConverter;
 import com.example.unit_converter.converters.CurrentConverter;
 import com.example.unit_converter.converters.EnergyConverter;
+import com.example.unit_converter.converters.ForceConverter;
+import com.example.unit_converter.converters.FrequencyConverter;
 import com.example.unit_converter.converters.IlluminanceConverter;
 import  com.example.unit_converter.converters.LengthConverter;
 import com.example.unit_converter.converters.PowerConverter;
 import com.example.unit_converter.converters.PressureConverter;
+import com.example.unit_converter.converters.ResistanceConverter;
+import com.example.unit_converter.converters.SoundConverter;
 import com.example.unit_converter.converters.SpeedConverter;
 import com.example.unit_converter.converters.StorageConverter;
 import  com.example.unit_converter.converters.TemperatureConverter;
 import com.example.unit_converter.converters.TorqueConverter;
+import com.example.unit_converter.converters.VoltageConverter;
 import com.example.unit_converter.converters.VolumeConverter;
 import  com.example.unit_converter.converters.WeightConverter;
 import  com.example.unit_converter.converters.TimeConverter;
@@ -32,14 +37,19 @@ import  com.example.unit_converter.dataProviders.UnitAreaDataProvider;
 import com.example.unit_converter.dataProviders.UnitCurrencyDataProvider;
 import com.example.unit_converter.dataProviders.UnitCurrentDataProvider;
 import com.example.unit_converter.dataProviders.UnitEnergyDataProvider;
+import com.example.unit_converter.dataProviders.UnitForceDataProvider;
+import com.example.unit_converter.dataProviders.UnitFrequencyDataProvider;
 import com.example.unit_converter.dataProviders.UnitIlluminanceDataProvider;
 import  com.example.unit_converter.dataProviders.UnitLengthDataProvider;
 import com.example.unit_converter.dataProviders.UnitPowerDataProvider;
 import com.example.unit_converter.dataProviders.UnitPressureDataProvider;
+import com.example.unit_converter.dataProviders.UnitResistanceDataProvider;
+import com.example.unit_converter.dataProviders.UnitSoundDataProvider;
 import com.example.unit_converter.dataProviders.UnitSpeedDataProvider;
 import com.example.unit_converter.dataProviders.UnitStorageDataProvider;
 import  com.example.unit_converter.dataProviders.UnitTemperatureDataProvider;
 import com.example.unit_converter.dataProviders.UnitTorqueDataProvider;
+import com.example.unit_converter.dataProviders.UnitVoltageDataProvider;
 import com.example.unit_converter.dataProviders.UnitVolumeDataProvider;
 import  com.example.unit_converter.dataProviders.UnitWeightDataProvider;
 import  com.example.unit_converter.dataProviders.UnitTimeDataProvider;
@@ -184,6 +194,7 @@ public class ConverterActivity extends AppCompatActivity {
                 dataItemUnitsList = UnitPressureDataProvider.dataItemUnitsList;
                 break;
             case "quantities_voltage":
+                dataItemUnitsList = UnitVoltageDataProvider.dataItemUnitsList;
                 break;
             case "quantities_current":
                 dataItemUnitsList = UnitCurrentDataProvider.dataItemUnitsList;
@@ -194,6 +205,7 @@ public class ConverterActivity extends AppCompatActivity {
             case "quantities_flow":
                 break;
             case "quantities_frequency":
+                dataItemUnitsList = UnitFrequencyDataProvider.dataItemUnitsList;
                 break;
             case "quantities_illuminance":
                 dataItemUnitsList = UnitIlluminanceDataProvider.dataItemUnitsList;
@@ -205,13 +217,15 @@ public class ConverterActivity extends AppCompatActivity {
                 dataItemUnitsList = UnitStorageDataProvider.dataItemUnitsList;
                 break;
             case "quantities_force":
+                dataItemUnitsList = UnitForceDataProvider.dataItemUnitsList;
                 break;
             case "quantities_sound":
+                dataItemUnitsList = UnitSoundDataProvider.dataItemUnitsList;
                 break;
             case "quantities_resistance":
+                dataItemUnitsList = UnitResistanceDataProvider.dataItemUnitsList;
                 break;
             case "quantities_luminance":
-
                 break;
             case "quantities_capacitance":
                 break;
@@ -292,6 +306,9 @@ public class ConverterActivity extends AppCompatActivity {
 
                 break;
             case "quantities_voltage":
+                VoltageConverter voltageConverter = new VoltageConverter(this, fromUnit,
+                        toUnit, fromValue, toValue, toNumberTV);
+                voltageConverter.convert();
                 break;
             case "quantities_current":
                 CurrentConverter currentConverter = new CurrentConverter(this, fromUnit,
@@ -307,6 +324,9 @@ public class ConverterActivity extends AppCompatActivity {
             case "quantities_flow":
                 break;
             case "quantities_frequency":
+                FrequencyConverter frequencyConverter = new FrequencyConverter(this, fromUnit,
+                        toUnit, fromValue, toValue, toNumberTV);
+                frequencyConverter.convert();
                 break;
             case "quantities_illuminance":
                 IlluminanceConverter illuminanceConverter = new IlluminanceConverter(this, fromUnit,
@@ -322,13 +342,21 @@ public class ConverterActivity extends AppCompatActivity {
                 StorageConverter storageConverter = new StorageConverter(this, fromUnit,
                         toUnit, fromValue, toValue, toNumberTV);
                 storageConverter.convert();
-
                 break;
             case "quantities_force":
+                ForceConverter forceConverter = new ForceConverter(this, fromUnit,
+                        toUnit, fromValue, toValue, toNumberTV);
+                forceConverter.convert();
                 break;
             case "quantities_sound":
+                SoundConverter soundConverter = new SoundConverter(this, fromUnit,
+                        toUnit, fromValue, toValue, toNumberTV);
+                soundConverter.convert();
                 break;
             case "quantities_resistance":
+                ResistanceConverter resistanceConverter = new ResistanceConverter(this, fromUnit,
+                        toUnit, fromValue, toValue, toNumberTV);
+                resistanceConverter.convert();
                 break;
             case "quantities_luminance":
                 break;

@@ -256,57 +256,57 @@ public class TorqueConverter {
 
     private void torqueKiloNewtonMeter() {
         if (mContext.getString(R.string.string_units_list_torque_newton_meter).equals(toUnit)) {
-            toValue = fromValue;
+            toValue = fromValue * 1000d;
         } else if (mContext.getString(R.string.string_units_list_torque_milli_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000d ;
+            toValue = fromValue * 1000000d ;
         } else if (mContext.getString(R.string.string_units_list_torque_centi_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue * 100000d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_newton_meter).equals(toUnit)) {
             toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_mega_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.000001d;
+            toValue = fromValue * 0.001d;
         } else if (mContext.getString(R.string.string_units_list_torque_micro_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000000d;
+            toValue = fromValue * 1.0E+9d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1000d;
+            toValue = fromValue * 1000000d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_centimeter).equals(toUnit)) {
-            toValue = fromValue * 100d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
             toValue = fromValue * 100000d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+7d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
             toValue = fromValue * 1.0E+8d;
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
+            toValue = fromValue * 1.0E+10d;
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
+            toValue = fromValue * 1.0E+11d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_pound_meter).equals(toUnit)) {
-            toValue = fromValue * 0.10197162129779d;
+            toValue = fromValue * 101.97162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 10197162.129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101971.62129779d;
+            toValue = fromValue * 101971621.29779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 101971.62129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
-            toValue = fromValue /  9.807d;
-        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
-            toValue = fromValue / 9.807d;
-        } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
             toValue = fromValue * 10197.162129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
+            toValue = fromValue * 101971.62129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
+            toValue = fromValue * 101.97162129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
+            toValue = fromValue * 101.97162129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
+            toValue = fromValue * 101971.62129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
+            toValue = fromValue * 10197.162129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
+            toValue = fromValue * 10197162.129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_foot).equals(toUnit)) {
-            toValue = fromValue / 1.356d;
+            toValue = fromValue * 737.56214728;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_inch).equals(toUnit)) {
-            toValue = fromValue * 8.8507457673787d ;
+            toValue = fromValue * 8850.7457673787d ;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_inch).equals(toUnit)) {
-            toValue = fromValue * 141.61193227806d;
+            toValue = fromValue * 141611.93227806d;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_foot).equals(toUnit)) {
-            toValue = fromValue * 11.800994356505d;
+            toValue = fromValue * 11800.994356505d;
         }
 
         mToNumberTV.setText(String.valueOf(toValue));
@@ -314,57 +314,57 @@ public class TorqueConverter {
 
     private void torqueMegaNewtonMeter() {
         if (mContext.getString(R.string.string_units_list_torque_newton_meter).equals(toUnit)) {
-            toValue = fromValue;
+            toValue = fromValue * 1000000d;
         } else if (mContext.getString(R.string.string_units_list_torque_milli_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000d ;
+            toValue = fromValue * 1.0E+9d ;
         } else if (mContext.getString(R.string.string_units_list_torque_centi_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue * 1.0E+8d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.001d;
+            toValue = fromValue * 1000d;
         } else if (mContext.getString(R.string.string_units_list_torque_mega_newton_meter).equals(toUnit)) {
             toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_micro_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000000d;
+            toValue = fromValue * 1.0E+12d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1000d;
+            toValue = fromValue * 1.0E+9d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_centimeter).equals(toUnit)) {
-            toValue = fromValue * 100d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
-            toValue = fromValue * 100000d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+7d;
-        } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
             toValue = fromValue * 1.0E+8d;
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
+            toValue = fromValue * 1.0E+11d;
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
+            toValue = fromValue * 1.0E+13d;
+        } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
+            toValue = fromValue * 1.0E+14d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_pound_meter).equals(toUnit)) {
-            toValue = fromValue * 0.10197162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
-        } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
             toValue = fromValue * 101971.62129779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
+            toValue = fromValue * 10197162129.779d;
+        } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
+            toValue = fromValue * 101971621297.79d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 101971621.29779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 10197162.129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 101971621.29779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
-            toValue = fromValue /  9.807d;
+            toValue = fromValue * 101971.62129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
-            toValue = fromValue / 9.807d;
+            toValue = fromValue * 101971.62129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 101971621.29779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 10197162.129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 10197162129.779d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_foot).equals(toUnit)) {
-            toValue = fromValue / 1.356d;
+            toValue = fromValue * 737562.14728;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_inch).equals(toUnit)) {
-            toValue = fromValue * 8.8507457673787d ;
+            toValue = fromValue * 8850745.7673787d ;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_inch).equals(toUnit)) {
-            toValue = fromValue * 141.61193227806d;
+            toValue = fromValue * 141611932.27806d;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_foot).equals(toUnit)) {
-            toValue = fromValue * 11.800994356505d;
+            toValue = fromValue * 11800994.356505d;
         }
 
         mToNumberTV.setText(String.valueOf(toValue));
@@ -372,57 +372,57 @@ public class TorqueConverter {
 
     private void torqueMicroNewtonMeter() {
         if (mContext.getString(R.string.string_units_list_torque_newton_meter).equals(toUnit)) {
-            toValue = fromValue;
+            toValue = fromValue * 0.000001;
         } else if (mContext.getString(R.string.string_units_list_torque_milli_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000d ;
+            toValue = fromValue * 0.001d ;
         } else if (mContext.getString(R.string.string_units_list_torque_centi_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue * 0.0001d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.001d;
+            toValue = fromValue * 1.0E-9d;
         } else if (mContext.getString(R.string.string_units_list_torque_mega_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.000001d;
+            toValue = fromValue * 1.0E-12d;
         } else if (mContext.getString(R.string.string_units_list_torque_micro_newton_meter).equals(toUnit)) {
             toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1000d;
+            toValue = fromValue * 0.001d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_centimeter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue * 0.0001d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
-            toValue = fromValue * 100000d;
+            toValue = fromValue * 0.1d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+7d;
+            toValue = fromValue * 10d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+8d;
+            toValue = fromValue * 100d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_pound_meter).equals(toUnit)) {
-            toValue = fromValue * 0.10197162129779d;
+            toValue = fromValue * 1.0197162129779E-7d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 0.010197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101971.62129779d;
+            toValue = fromValue * 0.10197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779E-4d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 1.0197162129779E-5d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779E-4d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
-            toValue = fromValue /  9.807d;
+            toValue = fromValue * 1.0197162129779E-7d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
-            toValue = fromValue / 9.807d;
+            toValue = fromValue * 1.0197162129779E-7d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779E-4d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 1.0197162129779E-5d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 0.010197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_foot).equals(toUnit)) {
-            toValue = fromValue / 1.356d;
+            toValue = fromValue * 7.3756214728E-7d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_inch).equals(toUnit)) {
-            toValue = fromValue * 8.8507457673787d ;
+            toValue = fromValue * 8.8507457673787E-6d ;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_inch).equals(toUnit)) {
-            toValue = fromValue * 141.61193227806d;
+            toValue = fromValue * 1.4161193227806E-4d;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_foot).equals(toUnit)) {
-            toValue = fromValue * 11.800994356505d;
+            toValue = fromValue * 1.1800994356505E-5d;
         }
 
         mToNumberTV.setText(String.valueOf(toValue));
@@ -430,57 +430,57 @@ public class TorqueConverter {
 
     private void torqueNewtonMillimeter() {
         if (mContext.getString(R.string.string_units_list_torque_newton_meter).equals(toUnit)) {
-            toValue = fromValue;
+            toValue = fromValue / 1000d;
         } else if (mContext.getString(R.string.string_units_list_torque_milli_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000d ;
+            toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_centi_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue / 10d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.001d;
+            toValue = fromValue / 1.0E+6d;
         } else if (mContext.getString(R.string.string_units_list_torque_mega_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.000001d;
+            toValue = fromValue * 1.0E-9d;
         } else if (mContext.getString(R.string.string_units_list_torque_micro_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000000d;
+            toValue = fromValue * 1000d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_millimeter).equals(toUnit)) {
             toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_centimeter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue / 10d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
             toValue = fromValue * 100000d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+7d;
+            toValue = fromValue * 100d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+8d;
+            toValue = fromValue * 0.1d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_pound_meter).equals(toUnit)) {
-            toValue = fromValue * 0.10197162129779d;
+            toValue = fromValue / 9806.65d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 10.197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101971.62129779d;
+            toValue = fromValue / 9806.65d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 0.10197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 0.010197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779E-7d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
-            toValue = fromValue /  9.807d;
+            toValue = fromValue /  9806.65d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
-            toValue = fromValue / 9.807d;
+            toValue = fromValue / 9806.65d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 0.10197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 0.010197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 10.197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_foot).equals(toUnit)) {
-            toValue = fromValue / 1.356d;
+            toValue = fromValue / 1356d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_inch).equals(toUnit)) {
-            toValue = fromValue * 8.8507457673787d ;
+            toValue = fromValue * 0.0088507457673787d ;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_inch).equals(toUnit)) {
-            toValue = fromValue * 141.61193227806d;
+            toValue = fromValue * 0.14161193227806d;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_foot).equals(toUnit)) {
-            toValue = fromValue * 11.800994356505d;
+            toValue = fromValue * 0.011800994356505d;
         }
 
         mToNumberTV.setText(String.valueOf(toValue));
@@ -488,57 +488,57 @@ public class TorqueConverter {
 
     private void torqueNewtonCentiMeter() {
         if (mContext.getString(R.string.string_units_list_torque_newton_meter).equals(toUnit)) {
-            toValue = fromValue;
+            toValue = fromValue / 100d;
         } else if (mContext.getString(R.string.string_units_list_torque_milli_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000d ;
+            toValue = fromValue * 10d ;
         } else if (mContext.getString(R.string.string_units_list_torque_centi_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 100d;
+            toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.001d;
+            toValue = fromValue * 1.0E-5d;
         } else if (mContext.getString(R.string.string_units_list_torque_mega_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 0.000001d;
+            toValue = fromValue * 1.0E-8d;
         } else if (mContext.getString(R.string.string_units_list_torque_micro_newton_meter).equals(toUnit)) {
-            toValue = fromValue * 1000000d;
+            toValue = fromValue * 10000d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1000d;
+            toValue = fromValue * 10d;
         } else if (mContext.getString(R.string.string_units_list_torque_newton_centimeter).equals(toUnit)) {
             toValue = fromValue ;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_meter).equals(toUnit)) {
-            toValue = fromValue * 100000d;
+            toValue = fromValue * 1000d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_centimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+7d;
+            toValue = fromValue * 100000d;
         } else if (mContext.getString(R.string.string_units_list_torque_dyne_millimeter).equals(toUnit)) {
-            toValue = fromValue * 1.0E+8d;
+            toValue = fromValue * 1.0E+6d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilo_pound_meter).equals(toUnit)) {
-            toValue = fromValue * 0.10197162129779d;
+            toValue = fromValue * 2.2480894309971E-6d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 101.97162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101971.62129779d;
+            toValue = fromValue * 1019.7162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 0.10197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_millimeter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_meter).equals(toUnit)) {
-            toValue = fromValue /  9.807d;
+            toValue = fromValue /  980.665d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_meter).equals(toUnit)) {
-            toValue = fromValue / 9.807d;
+            toValue = fromValue / 980.665d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_meter).equals(toUnit)) {
-            toValue = fromValue * 101.97162129779d;
+            toValue = fromValue * 1.0197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_kilogram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10.197162129779d;
+            toValue = fromValue * 0.10197162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_gram_force_centimeter).equals(toUnit)) {
-            toValue = fromValue * 10197.162129779d;
+            toValue = fromValue * 101.97162129779d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_foot).equals(toUnit)) {
-            toValue = fromValue / 1.356d;
+            toValue = fromValue / 135.6d;
         } else if (mContext.getString(R.string.string_units_list_torque_pound_force_inch).equals(toUnit)) {
-            toValue = fromValue * 8.8507457673787d ;
+            toValue = fromValue * 0.088507457673787d ;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_inch).equals(toUnit)) {
-            toValue = fromValue * 141.61193227806d;
+            toValue = fromValue * 1.4161193227806d;
         } else if (mContext.getString(R.string.string_units_list_torque_ounce_force_foot).equals(toUnit)) {
-            toValue = fromValue * 11.800994356505d;
+            toValue = fromValue * 0.11800994356505d;
         }
 
         mToNumberTV.setText(String.valueOf(toValue));

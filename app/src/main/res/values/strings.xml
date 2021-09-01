@@ -7,7 +7,7 @@
         <string name="string_main_bnv_more">More</string>
 
         <!--Quantities fragment-->
-        <string name="string_quantities_list_length">Length/Distance</string>
+        <string name="string_quantities_list_length">Length</string>
         <string name="string_quantities_list_area">Area</string>
         <string name="string_quantities_list_weight">Weight</string>
         <string name="string_quantities_list_volume">Volume</string>
@@ -423,7 +423,7 @@
         <string name="string_units_list_current_cgsesunit">CGS e.s. unit</string>
 
         <!--Torque units-->
-                <!--International Standard- S.I-->
+        <!--International Standard- S.I-->
         <string name="string_units_list_torque_newton_meter">Newton Meter</string>
         <string name="string_units_list_torque_milli_newton_meter">Milli Newton Meter</string>
         <string name="string_units_list_torque_centi_newton_meter">Centi Newton Meter</string>
@@ -442,12 +442,12 @@
         <string name="string_units_list_torque_kilogram_centimeter">Kilogram Centimeter</string>
         <string name="string_units_list_torque_kilogram_millimeter">Kilogram Millimeter</string>
         <string name="string_units_list_torque_kilogram_meter">Kilogram Meter</string>
-                <!--Metric-->
+        <!--Metric-->
         <string name="string_units_list_torque_kilogram_force_meter">Kilogram-Force Meter</string>
         <string name="string_units_list_torque_gram_force_meter">Gram-Force Meter</string>
         <string name="string_units_list_torque_kilogram_force_centimeter">Kilogram-Force Centimeter</string>
         <string name="string_units_list_torque_gram_force_centimeter">Gram-Force Centimeter</string>
-                <!--American-->
+        <!--American-->
         <string name="string_units_list_torque_pound_force_foot">Pound-Force Foot</string>
         <string name="string_units_list_torque_pound_force_inch">Pound-Force Inch</string>
         <string name="string_units_list_torque_ounce_force_inch">Ounce-Force Inch</string>
@@ -469,5 +469,88 @@
         <string name="string_units_list_currency_thai_baht">Thai baht(฿)</string>
         <string name="string_units_list_currency_united_states_dollar">United States dollar($)</string>
 
+        <!--Force-->
+        <string name="string_units_list_force_newton">Newton</string>
+        <string name="string_units_list_force_kilonewton">Kilonewton</string>
+        <string name="string_units_list_force_gram_force">Gram-force</string>
+        <string name="string_units_list_force_kilogram_force">Kilogram-Force</string>
+        <string name="string_units_list_force_ton_force">Ton-Force</string>
+        <string name="string_units_list_force_exanewton">Exanewton</string>
+        <string name="string_units_list_force_petanewton">Petanewton</string>
+        <string name="string_units_list_force_teranewton">Teranewton</string>
+        <string name="string_units_list_force_giganewton">Giganewton</string>
+        <string name="string_units_list_force_meganewton">Meganewton</string>
+        <string name="string_units_list_force_hectonewton">Hectonewton</string>
+        <string name="string_units_list_force_decanewton">Decanewton</string>
+        <string name="string_units_list_force_decinewton">Decinewton</string>
+        <string name="string_units_list_force_centinewton">Centinewton</string>
+        <string name="string_units_list_force_millinewton">Millinewton</string>
+        <string name="string_units_list_force_micronewton">Micronewton</string>
+        <string name="string_units_list_force_nanonewton">Nanonewton</string>
+        <string name="string_units_list_force_piconewton">Piconewton</string>
+        <string name="string_units_list_force_femtonewton">Femtonewton</string>
+        <string name="string_units_list_force_dyne">Dyne</string>
+        <string name="string_units_list_force_joule_per_meter">Joule/meter</string>
+        <string name="string_units_list_force_joule_per_centimeter">Joule/centimeter</string>
+        <string name="string_units_list_force_kilopound_force">Kilopound-force</string>
+        <string name="string_units_list_force_pound_force">Pound-force</string>
+        <string name="string_units_list_force_ounce_force">Ounce-force</string>
+        <string name="string_units_list_force_poundal">Poundal</string>
+        <string name="string_units_list_force_pound_foot_per_square_second">Pound foot/square second</string>
+        <string name="string_units_list_force_pond">Pond</string>
+        <string name="string_units_list_force_kilopond">Kilopond</string>
 
+        <!--Frequency-->
+        <string name="string_units_list_frequency_hertz">Hertz</string>
+        <string name="string_units_list_frequency_nanohertz">Nanohertz</string>
+        <string name="string_units_list_frequency_microhertz">Microhertz</string>
+        <string name="string_units_list_frequency_millihertz">Millihertz</string>
+        <string name="string_units_list_frequency_centihertz">Centihertz</string>
+        <string name="string_units_list_frequency_decihertz">Decihertz</string>
+        <string name="string_units_list_frequency_decahertz">Decahertz</string>
+        <string name="string_units_list_frequency_hectohertz">Hectohertz</string>
+        <string name="string_units_list_frequency_kilohertz">Kilohertz</string>
+        <string name="string_units_list_frequency_megahertz">Megahertz</string>
+        <string name="string_units_list_frequency_gigahertz">Gigahertz</string>
+        <string name="string_units_list_frequency_terahertz">Terahertz</string>
+        <string name="string_units_list_frequency_revs_per_hour">Revs/hour</string>
+        <string name="string_units_list_frequency_revs_per_minute">Revs/minute</string>
+        <string name="string_units_list_frequency_revs_per_second">Revs/second</string>
+        <string name="string_units_list_frequency_radians_per_hour">Radians/hour</string>
+        <string name="string_units_list_frequency_radians_per_minute">Radians/minute</string>
+        <string name="string_units_list_frequency_radians_per_second">Radians/second</string>
+        <string name="string_units_list_frequency_degrees_per_hour">Degrees/hour</string>
+        <string name="string_units_list_frequency_degrees_per_minute">Degrees/minute</string>
+        <string name="string_units_list_frequency_degrees_per_second">Degrees/second</string>
+
+        <!--Resistance Units-->
+        <string name="string_units_list_resistance_abohm">Abohm</string>
+        <string name="string_units_list_resistance_gigaohm">Gigaohm</string>
+        <string name="string_units_list_resistance_kiloohm">Kiloohm</string>
+        <string name="string_units_list_resistance_megaohm">Mehaohm</string>
+        <string name="string_units_list_resistance_microohm">Microohm</string>
+        <string name="string_units_list_resistance_milliohm">Milliohm</string>
+        <string name="string_units_list_resistance_nanoohm">Nanoohm</string>
+        <string name="string_units_list_resistance_ohm">Ohm</string>
+        <string name="string_units_list_resistance_voltperampere">Volt per ampere</string>
+
+        <!--Sound Units-->
+        <string name="string_units_list_sound_bel">Bel</string>
+        <string name="string_units_list_sound_centidecibel">Centidecibel</string>
+        <string name="string_units_list_sound_decibel">Decibel</string>
+        <string name="string_units_list_sound_millidecibel">Millidecibel</string>
+        <string name="string_units_list_sound_neper">Neper</string>
+
+        <!--Voltage Units-->
+        <string name="string_units_list_voltage_teravolt">Teravolt</string>
+        <string name="string_units_list_voltage_gigavolt">Gigavolt</string>
+        <string name="string_units_list_voltage_megavolt">Megavolt</string>
+        <string name="string_units_list_voltage_kilovolt">Kilovolt</string>
+        <string name="string_units_list_voltage_hektovolt">Hektovolt</string>
+        <string name="string_units_list_voltage_volt">Volt</string>
+        <string name="string_units_list_voltage_decivolt">Deivolt</string>
+        <string name="string_units_list_voltage_centivolt">Centivolt</string>
+        <string name="string_units_list_voltage_millivolt">Millivolt</string>
+        <string name="string_units_list_voltage_microvolt">Microvolt</string>
+        <string name="string_units_list_voltage_nanovolt">Nanovolt</string>
 </resources>
